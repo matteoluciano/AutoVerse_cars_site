@@ -1,0 +1,280 @@
+body{
+    background-color:aliceblue;
+    font-size: x-large;
+}
+
+.incolonnamento{
+    display: flex; /*mette tutto sulla stessa riga*/
+    flex-direction: row; /*si può omettere, allinea le colonne a destra*/
+    justify-content:space-around; /*spazio attorno*/
+}
+
+.colonna{
+    flex: 1; /*grandezza sezione*/
+    text-align: center;
+    max-width: 30%;
+}
+
+.colonna2{
+    flex: 1; /*grandezza sezione*/
+    text-align: center;
+    max-width: 50%;
+}
+
+.img{
+    max-width: 50%;
+    height: auto;
+}
+
+.gare{
+    margin-left: 35%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.senna{
+    margin-left: 25%;
+    margin-right: 50%;
+}
+
+.epoca{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.nascita{
+    margin-right: 50%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.link{
+    font-size: xx-large;
+}
+
+a{
+    color:dimgray; /* Colore del testo del link */
+    text-decoration: none; /* Rimuovere il sottolineato di default */
+    transition: color 0.3s ease; /* Effetto di transizione al passaggio del mouse */
+}
+
+a:hover {
+    color:gold; /* Cambio colore al passaggio del mouse */
+}
+
+img{
+    border: solid #000;
+    padding: 0.3%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    
+    background-color: black;
+
+    font-size: small;
+}
+
+.contenitore{
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    text-align: start;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.contenitore2{
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo{
+    max-width: 40%;
+    height: auto;
+}
+
+.sportive{
+    margin-right: 60%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.contatti{
+    font-size: large;
+    align-items: center;
+}
+
+form{
+    text-align: center;
+    background-color: white;
+    font-size: xx-large;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 40px;
+    border: solid;
+}
+
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+    text-align: center;
+    border-radius: 20px;
+    border:solid;
+}
+
+.menu{
+    margin-left: 70%;
+    margin-right: 10%;
+}
+
+.login{
+    padding-top: 5%;
+}
+
+input{
+    border: solid;
+    width: 70%;
+    height: 10%;
+}
+
+.prodotto{
+    width: 100%;
+    height: auto;
+}
+
+.carattere1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formula1{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.evoluzione{
+    float: right;
+    
+}
+
+.piloti{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.testo1_f1{
+    margin-right: 60%;
+    text-align: center;
+}
+
+.testo2_f1{
+    margin-left: 60%;
+    text-align: center;
+}
+
+.team_foto{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+.circuito{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.teams{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.team_s{
+    width: 90%;
+    height: auto;
+    border: none;
+}
+
+.bordo{
+    border: solid;
+    border-radius: 30px;
+
+    background-color: white;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #000;
+}
+
+.racing{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.foto{
+    width: 50%;
+    height: auto;
+
+    float: right;
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+.endurance{
+    margin-right: 60%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.verticale{
+    border-left: 2px solid black;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+
+.pilota{
+    width: 95%;
+    height: auto;
+    border: 1px;
+    border-radius: 20px;
+}
+
+.auto{
+    width: 50%;
+    height: auto;
+    border: 1px;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+.logo_ferrari{
+    width: 30%;
+    height: auto;
+}
+
+.selezione{
+    color: gold;
+}
