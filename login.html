@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="auto, sport">
+    <meta name="description" content="AutoVerse">
+    <link rel="icon" href="img/logo_finale.jpeg">
+    <link rel="stylesheet" href="css/stile.css">
+
+    <title>AutoVerse</title>
+
+</head>
+<body class="carattere1">
+
+    <h1>AutoVerse</h1>
+
+    <div class="menu">
+
+        <div class="incolonnamento">
+
+            <nav class="button colonna">
+                <a href="register.html" title="Register">Register</a>
+            </nav>
+    
+            <nav class="button colonna">
+                <a href="login.html" title="Login"  class="selezione">Login</a>
+            </nav>
+    
+        </div>
+
+    </div>
+
+    <br><hr>
+
+    <header>
+        <nav  class="incolonnamento link">
+            
+            <a href="index.html" title="Homepage">Homepage</a>
+            <a href="ferrari.html" title="Ferrari">Ferrari</a>
+            <a href="formula1.html" title="Formula 1">Formula 1</a>
+            <a href="shop.html" title="Shop">Shop</a>
+            
+        </nav>
+    </header>
+
+    <hr>
+
+    <form class="incolonnamento">
+        
+        <div class="colonna">
+            <h1>AutoVerse</h1>
+            <h2>Login</h2>
+            <img style="width: 50%;" src="img/logo_finale.jpeg">
+        </div>
+        
+        <div class="colonna login">
+            <label for="mail">e-mail:</label><br>
+            <input type="email" id="mail"><br><br>
+            <label for="password">password:</label><br>
+            <input type="password" id="password"><br><br>
+
+            <input type="submit" id="submit">
+        </div>
+    </form>
+
+    <br><br>
+
+    <footer class="incolonnamento contatti" >
+        
+        <div class="colonna">
+            <img src="img/logo_finale_sfondo.jpeg.png" class="logo">
+            <p>Contatti:</p>
+            <p>email: matteo.luciano@itiscuneo.eu</p>
+        </div>
+        
+        <div class="colonna">
+            <img src="img/logo_finale_sfondo.jpeg.png" class="logo">
+            <p>Sito creato da:</p>
+            <p>Luciano Matteo</p>
+        </div>
+
+        <div class="colonna">
+            <img src="img/logo_finale_sfondo.jpeg.png" class="logo">
+            <p>Sito creato per scuola: itis cuneo mario delpozzo Cuneo</p>
+            <p>Materia: tpsit</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
+<script>
+
+    //prima cosa che si fa 
+    const mail=document.getElementById("mail")    //document object model (dom) va nel html, in una costante per non rischiare di cancellarlo 
+    const password=document.getElementById("password")
+
+    const login=document.getElementById("submit")
+
+    login.addEventListener("click", function(e){
+
+        console.log(mail);
+        console.log(mail.value);
+        console.log(typeof mail.value);
+
+        if(mail.value!="ciao@com"){
+
+            alert("Mail errata!");
+
+        }else if(password.value!="ciao"){
+
+            alert("Password errata!");
+
+        }else{
+            console.log("funge");
+            alert("Accesso avvenuto correttamente!")
+        }
+
+    })
+
+</script>
